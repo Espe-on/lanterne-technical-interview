@@ -7,7 +7,7 @@ app.get('/', (request, response) => {
 });
 
 app.get('/lines', (request, response) => {
-    response.send(data[1])
+    response.send(data[1].LINES)
 });
 
 app.get('/stations', (request, response) => {

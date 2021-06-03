@@ -5,8 +5,6 @@ let json = csvToJson
     .fieldDelimiter(',')
     .getJsonFromCsv('data/london_stations.csv');
 
-let lines = []
-
 for (let i = 0; i < json.length; i++){
 
 }
